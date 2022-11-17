@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body > div {
+	padding: 0.5rem;
+}
+
+h3 {
+	margin: 1rem 0;
+}
+
+.form-personas div,
+.form-mascotas div {
+	margin-bottom: 0.5rem;
+}
+
+.form-personas div input:not([type='submit']),
+.form-mascotas div input:not([type='submit']) {
+	width: 100%;
+	height: 1.8rem;
+	padding: 0.5rem;
+}
+
+.form-personas div input[type='submit'],
+.form-mascotas div input[type='submit'] {
+	padding: 0.4rem 0.8rem;
+}
+
+.form-personas div input[type='submit']:hover,
+.form-mascotas div input[type='submit']:hover {
+	cursor: pointer;
+}
+
+@media screen and (min-width: 480px) {
+	body > div {
+		margin-inline: auto;
+		display: grid;
+		grid-template-columns: repeat(2, minmax(10rem, 20rem));
+		justify-content: center;
+		gap: 0 0.5rem;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	body > div {
+		max-width: 1200px;
+	}
+}

@@ -1,0 +1,15 @@
+form div {
+	margin-bottom: 0.5rem;
+}
+
+form div input:hover {
+	cursor: pointer;
+}
+
+a button:hover {
+	cursor: pointer;
+}
+
+.error {
+	color: red;
+}
