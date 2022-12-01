@@ -1,0 +1,28 @@
+{
+	"dependencies": {
+		"express": "^4.18.2",
+		"socket.io": "^4.5.3"
+	},
+	"name": "servidor_con_websocket",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/lautarobilavcik/backendCoder.git#main"
+	},
+	"keywords": [
+		"node",
+		"express",
+		"websockets"
+	],
+	"author": "Lautaro Corvalan",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/lautarobilavcik/backendCoder/issues"
+	},
+	"homepage": "https://github.com/lautarobilavcik/backendCoder/tree/main#readme",
+	"description": ""
+}
